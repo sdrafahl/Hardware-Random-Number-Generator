@@ -1,0 +1,16 @@
+module spliter(a,b,c,d,out);
+	
+	output reg a;
+	output reg b;
+	output reg c;
+	output reg d;
+	output [3:0]out;
+	always 
+	in[0]=a;
+	always
+	in[1]=b;
+	always 
+	in[2]=c;
+	always 
+	in[3]=d;
+endmodule
